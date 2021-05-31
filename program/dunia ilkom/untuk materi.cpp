@@ -1,14 +1,16 @@
 #include <iostream>
 using namespace std;
-int faktorial(int x) {  if (x == 1) {
-return 1;
-} else {
-return x * faktorial(x-1);
+void batang(int x) {
+  if (x == 0) {
+    printf("daun\n");
+  } else {
+    batang(x - 1);
+    batang(x - 1);
+  }
 }
+int main(){
+	printf"%s", batang(3); 
 }
 
-int main() {
-cout<<"4! = " << faktorial(4);
-}
 
 
