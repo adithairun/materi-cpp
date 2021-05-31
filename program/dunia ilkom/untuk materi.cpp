@@ -1,14 +1,14 @@
 #include <iostream>
 using namespace std;
-int hitungLuasSegitiga() {
-  double alas = 5;
-  double tinggi = 7;
-  double luas = (alas * tinggi) / 2;
-  cout << "Luas segitiga adalah: " << luas << endl;
+int faktorial(int x) {  if (x == 1) {
+return 1;
+} else {
+return x * faktorial(x-1);
 }
-int main()
-{
-  hitungLuasSegitiga();
-  return 0;
 }
+
+int main() {
+cout<<"4! = " << faktorial(4);
+}
+
 
