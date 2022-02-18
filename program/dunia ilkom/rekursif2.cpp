@@ -9,5 +9,7 @@ int pangkatrekursif(int a, int b){
 
 int main (){
 
-cout << pangkatrekursif(2,3) ;
+cout << pangkatrekursif(2,5) ;
 }
+
+
